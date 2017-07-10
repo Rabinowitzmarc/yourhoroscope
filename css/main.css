@@ -1,0 +1,51 @@
+body {
+  background-image: url(../img/univerise.jpg);
+  background-repeat: repeat-x;
+  text-align: center;
+  background-color: black;
+  height: 500px;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  margin: 40px 0;
+}
+
+p {
+  color : white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+
+
+
+.form-control {
+
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+}
+
+img {
+  margin: 0 auto;
+  border: none;
+}
