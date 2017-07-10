@@ -55,10 +55,10 @@ var hSigns = [
     image :"img/sagittarius.jpg",
   },
   {
-    sign : "Capicorn",
+    sign : "Capricorn",
     fortune : "Timeless, driven, calculating, ambitious.",
     date : "Dec 23 – Jan 20",
-    image :"img/capicorn.jpg",
+    image :"img/capricorn.jpg",
   },
   {
     sign : "Aquarius",
@@ -102,7 +102,7 @@ function horoscope () {
     };
 // If user does not enter value that is in array, display "Not one of the signs.Try Again!"
     document.getElementById('sign').innerHTML = "Not one of the signs.Try Again!";
-    document.getElementById('image').src = " ";
+    document.getElementById('image').src = "img/zodiac.jpg";
     document.getElementById('date').textContent = " ";
     document.getElementById("horoscope").textContent = " ";
   };
